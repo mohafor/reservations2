@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'reservations.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': "django.db.backends.mysql",
         'NAME': 'reservations',
         'USER': 'root',
         'PASSWORD':"",
