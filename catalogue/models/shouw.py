@@ -1,7 +1,6 @@
 from django.db import models
 from .location import *
 
-
 # Create your models here.
 class Show(models.Model):
     slug = models.CharField(max_length=60, unique=True)

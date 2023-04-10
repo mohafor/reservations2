@@ -1,0 +1,27 @@
+{% extends 'layouts/base.html' %}
+
+{% load static %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ shouw.title }}</h1>
+
+	{% if shouw.poster_url %}
+	<p><img src="{% static 'catalogue/images/' %}{{ shouw.poster_url }}" alt="{{ shouw.title }}" width="200"></p>
+	{% else %}
+	<canvas width="200" height="100" style="border:1px solid #000000;"></canvas>
+	{% endif %}
+	
+	{% if shouw.location %}
+	<p><strong>Lieu de création:</strong> {{ shouw.location.designation }}</p>
+	{% endif %}
+        
+	<p><strong>Prix:</strong> {{ shouw.price }} €</p>
+        
+	{% if shouw.bookable %}
+	<p><em>Réservable</em></p>
+	{% else %}
+	<p><em>Non réservable</em></p>
+	{% endif %}
+{% endblock %}

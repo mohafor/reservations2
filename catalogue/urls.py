@@ -17,4 +17,6 @@ urlpatterns = [
     path('role/<int:role_id>', views.role.show, name='role_show'),
     path('location/', views.location.index, name='location_index'),
     path('location/<int:location_id>', views.location.show, name='location_show'),
+    path('shouw/', views.shouw.index, name='shouw_index'),
+    path('shouw/<int:show_id>', views.shouw.show, name='shouw_show'),
 ]

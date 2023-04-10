@@ -1,0 +1,16 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Liste des spectacles{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <ul>
+    {% for shouw in shows %}
+        <li>{{ shouw.title }}
+        {% if show.bookable %}
+            <span>{{ shouw.price }} €</span></li>
+        {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}
