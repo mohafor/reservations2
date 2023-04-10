@@ -20,7 +20,7 @@ def show(request, locality_id):
     try:
         locality = Locality.objects.get(id=locality_id)
     except Locality.DoesNotExist:
-        raise Http404('Locality inexistant');
+        raise Http404('Locality inexistant')
 
     title = 'Fiche d\'un locality'
 
