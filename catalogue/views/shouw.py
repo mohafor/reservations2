@@ -9,21 +9,21 @@ def index(request):
 	shows = Show.objects.all()
 	title = 'Liste des spectacles'
 	
-	return render(request, 'show/index.html', {
+	return render(request, 'shouw/index.html', {
 		'shows':shows,
 		'title':title
 	})
 
 
-def show(request, show_id):
+def show(request, shouw_id):
 	try:
-		show = Show.objects.get(id=show_id)
+		shouw = Show.objects.get(id=shouw_id)
 	except Show.DoesNotExist:
 		raise Http404('Spectacle inexistant')
 		
 	title = "Fiche d'un spectacle"
 	
-	return render(request, 'show/show.html', {
-		'show':show,
+	return render(request, 'shouw/show.html', {
+		'shouw':shouw,
 		'title':title 
 	})

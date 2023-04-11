@@ -7,7 +7,7 @@
     <ul>
     {% for shouw in shows %}
         <li>{{ shouw.title }}
-        {% if show.bookable %}
+        {% if shouw.bookable %}
             <span>{{ shouw.price }} €</span></li>
         {% endif %}
         </li>
