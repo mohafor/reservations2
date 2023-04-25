@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('slug', models.CharField(max_length=60, unique=True)),
                 ('title', models.CharField(max_length=255)),
                 ('description', models.TextField(max_length=255, null=True)),
-                ('posterUrl', models.CharField(max_length=255, null=True)),
+                ('poster_url', models.CharField(max_length=255, null=True)),
                 ('bookable', models.BooleanField(default=True)),
                 ('price', models.DecimalField(decimal_places=2, max_digits=10, null=True)),
                 ('created_at', models.DateTimeField(auto_now_add=True)),

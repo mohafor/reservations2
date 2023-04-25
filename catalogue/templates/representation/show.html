@@ -1,0 +1,21 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ representation.when }}</h1>
+	
+        <address>
+            <p>{{ representation.show.title }}</p>
+            <p>{{ representation.location.id }}</p>
+
+        </address>
+        
+        <h2>Liste des representation</h2>
+        <ul>
+        {% for representation in representation.representations.all %}
+            <li>{{ representation.when }}</li>
+        {% endfor %}
+        </ul>
+{% endblock %}
+

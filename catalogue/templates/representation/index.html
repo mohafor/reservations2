@@ -1,0 +1,16 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Liste des representation{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <ul>
+    {% for representation in representations %}
+        <li>{{ representaion.shouw_id }}
+        {% if representation.when %}
+            <span>{{ representation.location_id }} €</span></li>
+        {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

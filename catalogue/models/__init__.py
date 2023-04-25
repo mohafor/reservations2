@@ -3,5 +3,7 @@ from .type import *
 from .locality import *
 from .role import *
 from .location import *
-from .shouw import *
+from .show import *
 from .representation import *
+from .user import *
+

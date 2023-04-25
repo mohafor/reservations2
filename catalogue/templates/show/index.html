@@ -5,10 +5,10 @@
 {% block content %}
     <h1>{{ title }}</h1>
     <ul>
-    {% for shouw in shows %}
-        <li>{{ shouw.title }}
-        {% if shouw.bookable %}
-            <span>{{ shouw.price }} €</span></li>
+    {% for show in shows %}
+        <li>{{ show.title }}
+        {% if show.bookable %}
+            <span>{{ show.price }} €</span></li>
         {% endif %}
         </li>
     {% endfor %}

@@ -16,8 +16,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('schedule', models.DateTimeField(auto_now_add=True)),
-                ('location', models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='representations', to='catalogue.location')),
-                ('shouw', models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='representations', to='catalogue.show')),
+                ('location_id', models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='representations', to='catalogue.location')),
+                ('show_id', models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='representations', to='catalogue.show')),
             ],
             options={
                 'db_table': 'representations',
