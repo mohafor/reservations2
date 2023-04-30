@@ -1,21 +1,22 @@
 {% extends 'layouts/base.html' %}
 
-{% block title %}{{ title }}{% endblock %}
+{% block title %}Fiche d'une représentation{% endblock %}
 
 {% block content %}
-    <h1>{{ representation.when }}</h1>
-	
-        <address>
-            <p>{{ representation.show.title }}</p>
-            <p>{{ representation.location.id }}</p>
+    <article>
+        <h1>Représentation du {{ representation.schedule|date:'d/m/Y' }} à {{ representation.schedule|date:'G:i' }}</h1>
+        <p><strong>Spectacle:</strong> {{ representation.show.title }}</p>
 
-        </address>
-        
-        <h2>Liste des representation</h2>
-        <ul>
-        {% for representation in representation.representations.all %}
-            <li>{{ representation.when }}</li>
-        {% endfor %}
-        </ul>
+        <p><strong>Lieu:</strong> 
+        {% if representation.location %}
+        {{ representation.location.designation }}
+        {% elif representation.show.location %}
+        {{ representation.show.location.designation }}
+        {% else %}
+        <em>à déterminer</em>
+        {% endif %}
+        </p>
+    </article>
+
+    <nav><a href="{% url 'catalogue:representation_index' %}">Retour à l'index</a></nav>
 {% endblock %}
-

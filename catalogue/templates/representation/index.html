@@ -1,15 +1,16 @@
 {% extends 'layouts/base.html' %}
 
-{% block title %}Liste des representation{% endblock %}
+{% block title %}Liste des representations{% endblock %}
 
 {% block content %}
     <h1>{{ title }}</h1>
     <ul>
     {% for representation in representations %}
-        <li>{{ representaion.shouw_id }}
-        {% if representation.when %}
-            <span>{{ representation.location_id }} €</span></li>
-        {% endif %}
+        <li><a href="{% url 'catalogue:representation_show' representation_id=representation.id %}">{{ representation.show.title }}</a>
+            {% if representation.location %}
+            - <span>{{ representation.location.designation }}</span>
+            {% endif %}
+            - <datetime>{{ representation.schedule|date:'d-m-Y H:i' }}</datetime>
         </li>
     {% endfor %}
     </ul>

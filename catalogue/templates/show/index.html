@@ -6,7 +6,7 @@
     <h1>{{ title }}</h1>
     <ul>
     {% for show in shows %}
-        <li>{{ show.title }}
+    <li><a href="{% url 'catalogue:show_show' show.id %}">{{ show.title }}</a> 
         {% if show.bookable %}
             <span>{{ show.price }} €</span></li>
         {% endif %}

@@ -4,4 +4,6 @@
 
 {% block content %}
     <h1>{{ artist.firstname }} {{ artist.lastname }}</h1>
+    <nav><a href="{% url 'catalogue:artist_index' %}">Retour à l'index</a></nav>
+
 {% endblock %}

@@ -6,7 +6,7 @@
     <h1>{{ title }}</h1>
     <ul>
     {% for location in locations %}
-        <li>{{ location.designation }}
+        <li><a href="{% url 'catalogue:location_show' location.id %}">{{ location.designation }}</a>
         {% if location.website %}
             - <a href="{{ location.website }}">{{ location.website }}</a></li>
         {% endif %}

@@ -24,4 +24,6 @@
 	{% else %}
 	<p><em>Non réservable</em></p>
 	{% endif %}
-{% endblock %}
+
+	<nav><a href="{% url 'catalogue:show_index' %}">Retour à l'index</a></nav>
+	{% endblock %}

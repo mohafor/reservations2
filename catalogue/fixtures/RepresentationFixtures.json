@@ -2,39 +2,61 @@
 {
     "model": "catalogue.representation",
     "pk": 1,
-    "fields":{
-    "location_slug": "espace-delvaux-la-venerie",
-    "show_slug": "ayiti",
-    "when": "2012-10-12 13:30"
-    }   
-},
-{
-    "model": "catalogue.representation",
-    "pk": 1,
-    "fields":{
-    "location_slug": "dexia-art-center",
-    "show_slug": "ayiti",
-    "when": "2012-10-12 20:30"
-    }   
-},
-{
-    "model": "catalogue.representation",
-    "pk": 1,
-    "fields":{
-    "location_slug": null,
-    "show_slug": "cible-mouvante",
-    "when": "2012-10-02 20:30"
+    "fields": {
+        "id": 1,
+        "schedule": "2012-10-12 13:30:00",
+        "show_id": 1,
+        "location_id": 1
     }
 },
 {
     "model": "catalogue.representation",
-    "pk": 1,
-    "fields":{
-    "location_slug": null,
-    "show_slug": "ceci-nest-pas-un-chanteur-belge",
-    "when": "2012-10-16 20:30"
-    }
+    "pk": 2,
+    "fields": {
+        "id": 2,
+        "schedule": "2012-10-12 20:30:00",
+        "show_id": 1,
+        "location_id": 2
+      }
+},
+{
+    "model": "catalogue.representation",
+    "pk": 3,
+    "fields": {
+        "id": 3,
+        "schedule": "2012-10-07 20:30:00",
+        "show_id": 1,
+        "location_id": null
+      }
+},
+{
+    "model": "catalogue.representation",
+    "pk": 4,
+    "fields": {
+        "id": 4,
+        "schedule": "2012-10-02 20:30:00",
+        "show_id": 2,
+        "location_id": null
+      }
+},
+{
+    "model": "catalogue.representation",
+    "pk": 5,
+    "fields": {
+        "id": 5,
+        "schedule": "2012-10-03 20:30:00",
+        "show_id": 2,
+        "location_id": null
+      }
+},
+{
+    "model": "catalogue.representation",
+    "pk": 6,
+    "fields": {
+        "id": 6,
+        "schedule": "2012-10-04 20:30:00",
+        "show_id": 2,
+        "location_id": null
+      }
 }
 ]
-
- 
