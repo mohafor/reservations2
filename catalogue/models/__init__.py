@@ -6,4 +6,5 @@ from .location import *
 from .show import *
 from .representation import *
 from .user import *
+from .artisttype import *
 
