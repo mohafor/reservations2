@@ -39,7 +39,7 @@ def create(request):
     else:
         form = ArtistForm()
 
-    title = 'Création d\'un artiste'
+    title = 'Créer un artiste'
 
     return render(request, 'artist/create.html', {
         'form': form,
