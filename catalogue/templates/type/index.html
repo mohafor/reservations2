@@ -6,7 +6,7 @@
     <h1>{{ title }}</h1>
     <ul>
 	{% for type in types %}
-		<li>{{ type.type }}</li>
+		<li><a href="{% url 'catalogue:type_show' type.id %}">{{ type.type }}</a></li>
 	{% endfor %}
     </ul>
 {% endblock %}

@@ -4,7 +4,7 @@
       "pk": 1,
       "fields": {
         "artist": 1,
-        "type": 1
+        "type": 3
       }
     },
     {
@@ -12,7 +12,7 @@
       "pk": 2,
       "fields": {
         "artist": 2,
-        "type": 1
+        "type": 3
       }
     },
     {
@@ -36,7 +36,7 @@
       "pk": 5,
       "fields": {
         "artist": 1,
-        "type": 3
+        "type": 1
       }
     },
     {
@@ -44,7 +44,7 @@
       "pk": 6,
       "fields": {
         "artist": 3,
-        "type": 1
+        "type": 3
       }
     },
     {
@@ -60,7 +60,7 @@
       "pk": 8,
       "fields": {
         "artist": 5,
-        "type": 3
+        "type": 1
       }
     },
     {
@@ -68,7 +68,7 @@
       "pk": 9,
       "fields": {
         "artist": 6,
-        "type": 3
+        "type": 1
       }
     },
     {
@@ -76,7 +76,7 @@
       "pk": 10,
       "fields": {
         "artist": 7,
-        "type": 3
+        "type": 1
       }
     },
     {
@@ -84,7 +84,7 @@
       "pk": 11,
       "fields": {
         "artist": 8,
-        "type": 3
+        "type": 1
       }
     },
     {
@@ -92,7 +92,31 @@
       "pk": 12,
       "fields": {
         "artist": 9,
+        "type": 1
+      }
+    },
+    {
+      "model": "catalogue.artisttype",
+      "pk": 13,
+      "fields": {
+        "artist": 10,
         "type": 3
+      }
+    },
+    {
+      "model": "catalogue.artisttype",
+      "pk": 14,
+      "fields": {
+        "artist": 11,
+        "type": 2
+      }
+    },
+    {
+      "model": "catalogue.artisttype",
+      "pk": 15,
+      "fields": {
+        "artist": 10,
+        "type": 1
       }
     }
   ]

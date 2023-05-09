@@ -4,4 +4,14 @@
 
 {% block content %}
     <h1>{{ type.type|title }}</h1>
+    <h2>Liste des artistes</h2>
+    <ul>
+    {% for artist in type.artists.all %}    
+        <li>{{ artist.firstname }} {{ artist.lastname }}</li>
+    {% empty %}
+        <li>Aucun artiste trouvé pour ce type.</li>
+    {% endfor %}
+    </ul>
+
+    <nav><a href="{% url 'catalogue:type_index' %}">Retour à l'index</a></nav>
 {% endblock %}
