@@ -25,7 +25,7 @@
     "fields": {
         "id": 3,
         "schedule": "2012-10-07 20:30:00",
-        "show_id": 1,
+        "show_id": 3,
         "location_id": null
       }
 },
@@ -55,7 +55,7 @@
     "fields": {
         "id": 6,
         "schedule": "2012-10-04 20:30:00",
-        "show_id": 2,
+        "show_id": 4,
         "location_id": null
       }
 }

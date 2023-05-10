@@ -1,5 +1,6 @@
 from django.db import models
 from .location import *
+from .artisttype import ArtistType
 
 # Create your models here.
 class Show(models.Model):
@@ -12,6 +13,7 @@ class Show(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    artist_types = models.ManyToManyField(ArtistType, through='ArtistTypeShow')
 
     class Meta:
         db_table = "shows"

@@ -35,6 +35,26 @@
         {% else %}
         <p>Aucune représentation</p>
         {% endif %}
+	
+    <h2>Liste des artistes</h2>
+    <p><strong>Auteur:</strong>
+    {% for auteur in collaborateurs.auteur %}
+        {{ auteur.firstname }} 
+        {{ auteur.lastname }}{% if forloop.last %}.{% elif forloop.last != True %}, {% endif %}
+    {% endfor %}
+    </p>
+    <p><strong>Metteur en scène:</strong>
+    {% for scenographe in collaborateurs.scénographe %}
+        {{ scenographe.firstname }} 
+        {{ scenographe.lastname }}{% if forloop.last %}.{% elif forloop.last != True %}, {% endif %}
+    {% endfor %}
+    </p>
+    <p><strong>Distribution:</strong>
+    {% for comedien in collaborateurs.comédien %}
+        {{ comedien.firstname }} 
+        {{ comedien.lastname }}{% if forloop.last %}.{% elif forloop.last != True %}, {% endif %}
+    {% endfor %}
+    </p>
 
 	<nav><a href="{% url 'catalogue:show_index' %}">Retour à l'index</a></nav>
 	{% endblock %}
