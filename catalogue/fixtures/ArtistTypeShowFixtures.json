@@ -1,0 +1,195 @@
+[
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 1,
+      "fields": {
+        "artist_type_id": 1,
+        "show_id": 1
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 2,
+      "fields": {
+        "artist_type_id": 2,
+        "show_id": 1
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 3,
+      "fields": {
+        "artist_type_id": 3,
+        "show_id": 1
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 4,
+      "fields": {
+        "artist_type_id": 4,
+        "show_id": 1
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 5,
+      "fields": {
+        "artist_type_id": 5,
+        "show_id": 1
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 6,
+      "fields": {
+        "artist_type_id": 6,
+        "show_id": 2
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 7,
+      "fields": {
+        "artist_type_id": 7,
+        "show_id": 2
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 8,
+      "fields": {
+        "artist_type_id": 8,
+        "show_id": 2
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 9,
+      "fields": {
+        "artist_type_id": 9,
+        "show_id": 2
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 10,
+      "fields": {
+        "artist_type_id": 10,
+        "show_id": 2
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 11,
+      "fields": {
+        "artist_type_id": 11,
+        "show_id": 2
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 12,
+      "fields": {
+        "artist_type_id": 12,
+        "show_id": 2
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 13,
+      "fields": {
+        "artist_type_id": 13,
+        "show_id": 3
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 14,
+      "fields": {
+        "artist_type_id": 14,
+        "show_id": 3
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 15,
+      "fields": {
+        "artist_type_id": 15,
+        "show_id": 3
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 16,
+      "fields": {
+        "artist_type_id": 16,
+        "show_id": 4
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 17,
+      "fields": {
+        "artist_type_id": 17,
+        "show_id": 4
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 18,
+      "fields": {
+        "artist_type_id": 18,
+        "show_id": 4
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 19,
+      "fields": {
+        "artist_type_id": 19,
+        "show_id": 4
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 20,
+      "fields": {
+        "artist_type_id": 5,
+        "show_id": 4
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 21,
+      "fields": {
+        "artist_type_id": 20,
+        "show_id": 5
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 22,
+      "fields": {
+        "artist_type_id": 21,
+        "show_id": 5
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 23,
+      "fields": {
+        "artist_type_id": 22,
+        "show_id": 5
+      }
+    },
+    {
+      "model": "catalogue.artisttypeshow",
+      "pk": 24,
+      "fields": {
+        "artist_type_id": 23,
+        "show_id": 5
+      }
+    }
+]
+
