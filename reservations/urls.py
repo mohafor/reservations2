@@ -20,3 +20,9 @@ urlpatterns = [
     path('catalogue/', include('catalogue.urls')),
     path('admin/', admin.site.urls),
 ]
+
+
+# Configure Admin Titles
+admin.site.site_header = "reservations Administration Page"
+admin.site.site_title = "Browser Title"
+admin.site.index_title = "Welcome To The Addmin Area..."
