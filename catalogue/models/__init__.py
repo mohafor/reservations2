@@ -10,4 +10,5 @@ from .artisttype import *
 from .artisttypeshow import *
 from .roleuser import *
 from .representationuser import *
+from .user import *
 
