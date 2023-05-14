@@ -1,6 +1,7 @@
 from django.db import models
 from .role import *
 from .representation import *
+from .role import *
 
 # Create your models here.
 class User(models.Model):

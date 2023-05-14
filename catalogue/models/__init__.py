@@ -8,4 +8,6 @@ from .representation import *
 from .user import *
 from .artisttype import *
 from .artisttypeshow import *
+from .roleuser import *
+from .representationuser import *
 
