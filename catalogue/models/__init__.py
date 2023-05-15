@@ -9,6 +9,6 @@ from .user import *
 from .artisttype import *
 from .artisttypeshow import *
 from .roleuser import *
-from .representationuser import *
+from .reservation import *
 from .user import *
 
