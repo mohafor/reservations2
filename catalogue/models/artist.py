@@ -11,4 +11,4 @@ class Artist(models.Model):
 		return f"{self.firstname} {self.lastname}"
 	
 class Meta:
-		db_table = "artists"
+	db_table = "artists"
